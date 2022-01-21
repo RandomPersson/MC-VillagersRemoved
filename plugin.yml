@@ -1,0 +1,22 @@
+name: VillagersRemoved
+version: 0.0
+description: Removes villagers.
+api-version: 1.15
+load: STARTUP
+author: RandomPersson
+authors: []
+website: https://discord.gg/RmDbKqq
+
+main: pl.org.mensa.rp.mc.VillagersRemoved.VillagersRemovedPlugin
+database: false
+depend: []
+prefix: 
+softdepend: []
+loadbefore: []
+
+commands:
+  villagerfix:
+    description: 
+    aliases: [vfix]
+    permission: 
+    usage: Use /<command> help for more info.
